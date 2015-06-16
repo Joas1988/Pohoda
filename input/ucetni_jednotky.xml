@@ -1,0 +1,5 @@
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:acu="http://www.stormware.cz/schema/version_2/accountingunit.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" version="2.0" id="00004" ico="" application="export" note="seznam účetních jednotek">
+  <dat:dataPackItem version="2.0" id="001">
+    <acu:listAccountingUnitRequest version="1.6"/>
+  </dat:dataPackItem>
+</dat:dataPack>

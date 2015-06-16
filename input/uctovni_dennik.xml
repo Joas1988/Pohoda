@@ -1,0 +1,11 @@
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" id="001" ico="12345678" application="StwTest" version="2.0" note="Požadavek na export Účetního deníku (PÚ)">
+  <dat:dataPackItem id="acc_03" version="2.0">
+    <!--  export účetního deníku (PÚ)  -->
+    <lst:listAccountancyRequest version="2.0" accountancyVersion="2.0">
+      <lst:requestAccountancy>
+        <!-- filtr všech záznamů -->
+        <ftr:filter></ftr:filter>
+      </lst:requestAccountancy>
+    </lst:listAccountancyRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

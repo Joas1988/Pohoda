@@ -1,0 +1,11 @@
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" id="001" ico="12345678" application="StwTest" version="2.0" note="Požadavek na export výběru nabídek">
+  <dat:dataPackItem id="Nab01" version="2.0">
+    <!--  export nabídek  -->
+    <lst:listOfferRequest version="2.0" offerVersion="2.0">
+      <lst:requestOffer>
+        <!--  export všech nabídek -->
+        <ftr:filter></ftr:filter>
+      </lst:requestOffer>
+    </lst:listOfferRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

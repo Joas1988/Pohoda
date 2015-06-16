@@ -1,0 +1,11 @@
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" id="001" ico="12345678" application="StwTest" version="2.0" note="Požadavek na export poptávek">
+  <dat:dataPackItem id="Pop01" version="2.0">
+    <!--  export poptávek  -->
+    <lst:listEnquiryRequest version="2.0" enquiryVersion="2.0">
+      <lst:requestEnquiry>
+        <!-- export všech poptávek -->
+        <ftr:filter></ftr:filter>
+      </lst:requestEnquiry>
+    </lst:listEnquiryRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

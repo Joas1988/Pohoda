@@ -1,0 +1,12 @@
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" id="001" ico="12345678" application="StwTest" version="2.0" note="Požadavek na export příjemek">
+  <dat:dataPackItem id="pri_01" version="2.0">
+    <!--  export příjemek  -->
+    <lst:listPrijemkaRequest version="2.0" prijemkaVersion="2.0">
+      <lst:requestPrijemka>
+        <ftr:filter>
+          <!-- export všech příjemek -->
+        </ftr:filter>
+      </lst:requestPrijemka>
+    </lst:listPrijemkaRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

@@ -1,0 +1,12 @@
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" id="001" ico="12345678" application="StwTest" version="2.0" note="Požadavek na export výdejek">
+  <dat:dataPackItem id="vyd_01" version="2.0">
+    <!--  export výdejek -->
+    <lst:listVydejkaRequest version="2.0" vydejkaVersion="2.0">
+      <lst:requestVydejka>
+        <ftr:filter>
+          <!-- export všech dokladů -->
+        </ftr:filter>
+      </lst:requestVydejka>
+    </lst:listVydejkaRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

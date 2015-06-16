@@ -1,0 +1,5 @@
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" id="Ex002" ico="12345678" application="StwTest" version="2.0" note="Žádost o seznamy">
+  <dat:dataPackItem id="Cin01" version="2.0">
+    <lst:listActivityRequest version="1.1"/>
+  </dat:dataPackItem>
+</dat:dataPack>
