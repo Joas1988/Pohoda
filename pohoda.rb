@@ -19,7 +19,7 @@ command.join
     init_file << "[XML]\ninput_dir=input\ncheck_duplicity=0,1\nformat_output=0,1\ndatabase=#{database}\nresponse_dir=#{output_dir.sub(/\//,'\\')}"
     init_file.close
     end
-    `"C:\\Program Files (x86)\\STORMWARE\\POHODA\\Pohoda.exe" /XML "Admin" "880526" "C:\\Users\\joas\\RubymineProjects\\Aiesec\\#{output_dir}\\init.ini"`
+    `"C:\\Program Files (x86)\\STORMWARE\\POHODA\\Pohoda.exe" /XML "Admin" "password" "C:\\Users\\joas\\RubymineProjects\\Aiesec\\#{output_dir}\\init.ini"`
   end
 end
 jednotky.close
